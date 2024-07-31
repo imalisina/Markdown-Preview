@@ -22,7 +22,7 @@ function helloWorld() {
 
 > Blockquote
 
-![Image](https://via.placeholder.com/150)
+![Image](https://via.assets.so/img.jpg?w=400&h=150)
 
 **Bold text**
 `);

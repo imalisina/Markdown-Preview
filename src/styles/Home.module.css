@@ -1,0 +1,77 @@
+/* styles/Home.module.css */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background for the whole page */
+}
+
+.editor, .preview {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white; /* White background for both editor and preview */
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.editor {
+  height: 100%;
+  font-size: 16px;
+  resize: none;
+  color: #333; /* Dark text color for the editor */
+}
+
+.preview {
+  height: 100%;
+  overflow-y: auto;
+  color: #333; /* Dark text color for the preview */
+}
+
+.preview h1, .preview h2, .preview h3, .preview h4, .preview h5, .preview h6 {
+  margin: 0 0 1em;
+  color: #111; /* Darker color for headers */
+}
+
+.preview pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  color: #000; /* Text color for code blocks */
+}
+
+.preview code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: #d63384; /* Color for inline code */
+}
+
+.preview blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 10px;
+  margin-left: 0;
+  color: #555; /* Color for blockquotes */
+}
+
+.preview ul, .preview ol {
+  padding-left: 20px;
+}
+
+.preview img {
+  max-width: 100%;
+  height: auto;
+}
+
+.preview a {
+  color: #0070f3; /* Link color */
+  text-decoration: none;
+}
+
+.preview a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

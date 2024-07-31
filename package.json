@@ -1,0 +1,19 @@
+{
+  "name": "markdown-preview",
+  "homepage": "https://imalisina.github.io/Markdown-Preview/",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "marked": "^13.0.3",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
